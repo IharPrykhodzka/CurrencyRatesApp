@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Калькулятор валют</string>
+    <string name="refresh_rate">Обновить</string>
+    <string name="from">из</string>
+    <string name="ruble">₽</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="in">в</string>
+    <string name="hint_for_edit_amount">Количество рублей</string>
+</resources>
