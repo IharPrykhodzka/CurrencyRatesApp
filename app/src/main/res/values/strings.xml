@@ -6,4 +6,8 @@
     <string name="calculate">Рассчитать</string>
     <string name="in">в</string>
     <string name="hint_for_edit_amount">Количество рублей</string>
+    <string name="hint_for_text_total">Итог</string>
+    <string name="error">Нет доступа к интернету</string>
+    <string name="min1">(за </string>
+    <string name="min2">)</string>
 </resources>

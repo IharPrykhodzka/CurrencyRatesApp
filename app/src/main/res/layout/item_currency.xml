@@ -41,7 +41,8 @@
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:maxLength="16"
+                android:maxLength="22"
+                android:ellipsize="end"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/currency_min"
                 app:layout_constraintStart_toEndOf="@id/char_code"
@@ -68,22 +69,11 @@
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                app:layout_constraintEnd_toStartOf="@id/difference_in_rate"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 tools:text="74.1234" />
 
-            <TextView
-                android:id="@+id/difference_in_rate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:paddingRight="10dp"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                tools:text="1.1234" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
